@@ -1,0 +1,78 @@
+{% extends  "base.html" %} {% block title %}Login{% endblock %}
+<link rel="stylesheet" href="/static/login.css">
+{% block content %}
+<h1>Login page</h1>
+<!--{% if boolean == True %}YES IT IS True
+{% else %}
+no it sis not true
+{% endif %}
+
+{{ text }}
+{{ user + " s"}}-->
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel"data-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 " src="/static/wp210122.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item ">
+      
+      <img class="d-block w-100 " src="/static/Black-Music-HD-Wallpapers.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 " src="/static/2267608bc68f3b190ab27b1c8f9889b9.jpg" alt="Third slide">
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+
+
+  
+<form method="POST" class="formlogin">
+    <h3 allign="centre">Login</h3>
+    <div > <!--bootstrapclass-->
+           <label for="email">EMAIL</label>
+           <input type="email" name="email" id="email" placeholder="ENTER THE EMAIL">
+
+        </div>
+        <div >
+            <label for="first name">first name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="ENTER THE name">
+ 
+
+          
+        </div>
+
+        <div >
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="ENTER THE name">
+ 
+
+
+        </div>
+
+
+
+        <br>
+
+        <button type="submit" class="btn btn-primary">LOGIN</button>
+
+
+        
+
+
+
+</form>
+
+
+
+</div>
+
+
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,51 @@
+.formsign{
+    border: solid 2px;
+    border-radius: 30px;
+    width: 10cm;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    height: 50vh;
+    background: transparent;
+    margin-left: 17cm;
+}
+
+.container{
+    position: absolute;
+    top:6cm;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+
+    transform:translation(-50%,-50%);
+    
+}
+.frame{
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+body{
+
+    animation-name: anime;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes anime {
+
+    0% {background-image:linear-gradient( #fc00ff,
+        #00dbde );}
+    25%  {background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        );}
+    50%  {background-image:linear-gradient(#fc00ff
+        #00dbde);}
+    100% {background-image:linear-gradient( (43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        );}
+}
